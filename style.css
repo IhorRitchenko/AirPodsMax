@@ -7,6 +7,29 @@ body {
     height: 600px;
 }
 
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #8e8e8e;
+    border-radius: 42px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #878787;
+}
+
+::-webkit-scrollbar-track:active, ::-webkit-scrollbar-track:hover {
+    background-color: #fff;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #fff;
+    border-radius: 20px;
+}
+
 .logo {
     user-select: none;
 }
