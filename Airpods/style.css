@@ -1,0 +1,597 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(to bottom, #CADBEB, white);
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.logo {
+    user-select: none;
+}
+
+.container {
+    margin-left: 280px;
+    margin-right: 280px;
+    padding-top: 35px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li {
+    display: inline-block;
+}
+
+.nav {
+    margin-right: 40px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.nav:hover {
+    opacity: .7;
+    transition: .3s;
+}
+
+.buy {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 11px 48px;
+    border-radius: 20px;
+    background-color: black;
+    transition: .3s;
+    box-shadow: 0 0 0 2px black;
+}
+
+.buy:hover {
+    color: black;
+    background-color: white;
+    transition: .3s;
+    box-shadow: 0 0 0 2px black;
+}
+
+.mainimg {
+    position: relative;
+    width: 550px;   
+    margin-top: 50px;
+    z-index: 1;
+}
+
+#blackmain {
+    display: none;
+} 
+
+#greenmain {
+    display: none;
+} 
+
+#redmain {
+    display: none;
+}
+
+#whitemain {
+    display: none;
+} 
+
+#bluebox {
+    display: none;
+}
+
+.main {
+    user-select: none;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.title {
+    position: absolute;
+    font-size: 140px;
+    top: 215px;
+    left: 375px;
+    font-weight: bold;
+    z-index: 2;
+}
+
+.zindex1 {
+    position: absolute;
+    font-size: 140px;
+    top: 215px;
+    left: 570px;
+    font-weight: bold;
+    z-index: 0;
+}
+
+.zindex2 {
+    position: absolute;
+    font-size: 140px;
+    top: 250px;
+    left: 837px;
+    font-weight: bold;
+    z-index: 2;
+}
+
+.zindex3 {
+    position: absolute;
+    font-size: 140px;
+    top: 410px;
+    left: 885px;
+    font-weight: bold;
+    z-index: 2;
+}
+
+.zindex4 {
+    position: absolute;
+    font-size: 140px;
+    top: 510px;
+    left: 966px;
+    font-weight: bold;
+    z-index: 0;
+}
+
+.choose {
+    text-align: center;
+}
+
+.desc {
+    position: relative;
+    width: 557px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slider {
+    display: flex;
+    margin-top: 100px;
+    padding-bottom: 100px;
+    align-items: center;
+}
+
+.box {
+    width: 262px;
+    height: 220px;
+    border: solid 1px grey;
+    border-radius: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#blackbox:hover {
+    box-shadow: inset 0 0 30px #B6B6B6;
+    transition: .3s;
+}
+
+#redbox:hover {
+    box-shadow: inset 0 0 30px #F3D6D1;
+    transition: .3s;
+}
+
+#bluebox:hover {
+    box-shadow: inset 0 0 30px #CADBEB;
+    transition: .3s;
+}
+
+
+#whitebox:hover {
+    box-shadow: inset 0 0 30px #cacaca;
+    transition: .3s;
+}
+
+#greenbox:hover {
+    box-shadow: inset 0 0 30px #DDEAD9;
+    transition: .3s;
+}
+
+
+.hphone {
+    margin-top: 20px;
+}
+
+.information {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.extremely {
+    font-size: 56px;
+}
+
+.description {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sideview {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    align-items: center;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sideblack {
+    display: none;
+}
+
+#sidewhite {
+    display: none;
+}
+
+#sidered {
+    display: none;
+}
+
+#sidegreen {
+    display: none;
+}
+
+.gaps {
+    width: 230px;
+    text-align: justify;
+    margin-bottom: 80px;
+}
+
+.char {
+    background-color: #FAFAFA;
+    text-align: center;
+}
+
+#blackcase {
+    display: none;
+}
+
+#redcase {
+    display: none;
+}
+
+#greencase {
+    display: none;
+}
+
+#whitecase {
+    display: none;
+}
+
+
+.battery {
+    font-size: 56px;
+    padding-top: 100px;
+}
+
+.last {
+    width: 400px;
+    margin: 50px auto;
+    padding-bottom: 80px;
+}
+
+.end {
+    height: 1800px;    ;
+    background-image: url(images/man.jpg);
+    background-repeat: no-repeat;
+}
+
+.audio {
+    width: 100%;
+    position: absolute;
+    top: 4400px;
+    z-index: 0;
+}
+
+.text {
+    color: white;
+    width: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1200px;
+    z-index: 1000;
+    position: relative;
+}
+
+.lbtn {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.lbtn2 {
+    position: relative;
+    color: black;
+    width: 80px;
+    padding: 11px 48px;
+    border-radius: 20px;
+    background-color: white;
+    text-decoration: none;
+    transition: .3s;
+    z-index: 1000;
+}
+
+.lbtn2:hover {
+    background-color: black;
+    color: white;
+    transition: .3s;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.find {
+    padding-top: 230px;
+    padding-bottom: 30px;
+}
+
+.apple {
+    padding: 30px 0;
+}
+
+.listm {
+    display: flex;
+    justify-content: center;
+}
+
+.list {
+    margin: 30px 10px;
+}
+
+.hiden {
+    display: none;
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 70px;
+}
+
+@media screen and (max-width: 1515px) {
+
+    .hiden {
+        display: block;
+        font-size: 100px;
+        font-weight: bold;
+        margin-top: 100px;
+    }
+    
+    .title {
+        display: none;
+    }
+
+    .zindex1 {
+        display: none;
+    }
+
+    .zindex2 {
+        display: none;
+    }
+
+    .zindex3 {
+        display: none;
+    }
+
+    .zindex4 {
+        display: none;
+    }
+
+}
+
+
+@media screen and (max-width: 1300px) {
+    .hphone {
+        width: 80%;
+        margin-top: 0;
+    }
+
+    .box {
+        height: 100%;
+    }
+
+    .container {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .container {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .extremely {
+        font-size: 40px;
+    }
+
+    .description {
+        width: 570px;
+    }
+
+    .sideview {
+        width: 570px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .hiden {
+        font-size: 80px;
+    }
+
+    .sideview {
+        width: 470px;
+    }
+
+    .gaps {
+        width: 180px;
+        font-size: 16px;
+    }
+
+    .description {
+        width: 480px;
+    }
+
+    .desc {
+        width: 480px;
+    }
+
+    .mainimg {
+        width: 420px;
+    }
+}
+
+
+
+.buy2{
+    display: none;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 11px 0px;
+    border-radius: 20px;
+    background-color: black;
+    transition: .3s;
+    box-shadow: 0 0 0 2px black;
+}
+
+.buy2:hover {
+    color: black;
+    background-color: white;
+    transition: .3s;
+    box-shadow: 0 0 0 2px black;
+}
+
+@media screen and (max-width: 550px) {
+    .buy {
+        display: none;
+    }
+
+    .buy2 {
+        display: block;
+        text-align: center;
+    }
+
+    .description {
+        width: 400px;
+    }
+
+    .gaps {
+        width: 150px;
+        font-size: 14px;
+    }
+
+    .side {
+        width: 200px;
+    }
+
+    .sideview {
+        width: 390px;
+    }
+
+    .desc {
+        width: 400px;
+    }
+
+    .hiden {
+        font-size: 65px;
+    }
+}   
+
+@media screen and (max-width: 450px) {
+    .nav {
+        margin-right: 20px;
+    }
+
+    .hiden {
+        font-size: 50px;
+    }
+
+    .mainimg {
+        width: 300px;
+    }
+
+    .desc {
+        width: 300px;
+        font-size: 14px;
+    }
+
+    .description {
+        width: 300px;
+        font-size: 14px;
+    }
+
+    .extremely {
+        font-size: 25px;
+    }
+
+    .battery {
+        font-size: 25px;
+    }
+
+    .case {
+        width: 200px;
+    }
+
+    .num {
+        font-size: 90px!important;
+    }
+
+    .last {
+        font-size: 14px;
+        width: 300px;
+    }
+
+    .text {
+        padding-top: 150px;
+    }
+
+    .end {
+        height: 550px;
+    }
+
+    .list {
+        font-size: 10px;
+    }
+
+    .audio {
+        display: none;
+    }
+
+    .side {
+        width: 150px;
+    }
+
+    .gaps {
+        font-size: 12px;
+        width: 120px;
+        margin-bottom: 25px;
+    }
+
+    .sideview {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .nav {
+        margin-right: 5px;
+        font-size: 12px;
+    }
+
+    .buy2 {
+        font-size: 12px;
+        padding: 8px 0;
+    }
+}
